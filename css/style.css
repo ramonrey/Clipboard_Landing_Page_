@@ -429,10 +429,6 @@ footer .links a:focus,
     align-items: center;
   }
 
-  .links a {
-    display: block;
-  }
-
   /* footer {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr;
@@ -440,16 +436,35 @@ footer .links a:focus,
     justify-content: center;
   }
 
-  .footer-logo {
+  /* .footer-logo {
     display: block;
     margin-bottom: 30px;
-  }
+  } */
 
   footer .links {
     display: block;
-    width: 80%;
     padding: 0;
-    margin: 0;
+    margin: 60px 0;
     text-align: center;
-  } */
+  }
+
+  footer .links a {
+    display: block;
+    padding: 0;
+    margin: 60px 0;
+    font-size: 24px;
+    text-align: center;
+  }
+
+  footer .social-link {
+    display: block;
+    padding: 0;
+  }
+
+  footer .social-link a {
+    display: block;
+    padding: 0;
+    margin: 20px 0;
+    font-size: var(--fs-h2);
+  }
 }
